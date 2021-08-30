@@ -9,7 +9,7 @@
     <h1>Contact</h1>
     <form method="post">
         <label>Email</label>
-        <input type="email" name="email" required><br>
+        <input type="email" name="email" pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" required><br>
         <label>Message</label>
         <textarea name="message" required></textarea><br>
         <input type="submit">
